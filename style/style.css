@@ -1,0 +1,362 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0em;
+    font-size: 16px;
+    font-family: sans-serif;
+    align-content: center;
+    font-weight: lighter;
+    color: black;
+}
+
+
+/* Navigatie */
+nav a {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* top navigatie */
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: white;
+}
+
+.navwork {
+    top: 0;
+    float: left;
+    width: 7em;
+}
+
+.navtamar {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    right: 30%;
+    left: 30%;
+    font-weight: 1000;
+}
+
+.navabout {
+    top: 0;
+    float: right;
+    width: 7em;
+}
+
+/* bottom navigatie */
+
+.bottomnav {
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    align-content: center;
+}
+
+.navcontact {
+    bottom: 0;
+    float: right;
+    width: 7em;
+}
+
+/*homepage pagina's */
+
+
+h1:first-of-type {
+    font-size: 2em;
+    line-height: 1.4em;
+    text-align: center;
+    /*margin is 70,4px */
+
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+h1:nth-of-type(2) {
+    font-size: 2em;
+    line-height: 1.4em;
+      text-align: center;
+    /*margin is 70,4px */
+    margin-right: 2.2em;
+    margin-left: 2.2em;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+
+.fototamar {
+    display: block;
+    height: auto;
+    width: 60%;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* about */
+
+.about {
+    display: grid;
+    width: 100%;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-right: 2.933em;
+    margin-left: 2.933em;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-right: 4.4em;
+    margin-left: 4.4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.about h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.about img {
+    display: block;
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+/* projecten */
+.semplice h2 {
+    padding-top: 2.5em;
+    margin-top: 0em;
+}
+
+
+.projecten img {
+    display: block;
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-bottom: 10em;
+}
+
+/* Homepage begin */
+
+.kleuren {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    align-content: center;
+}
+
+/* contact */
+
+
+
+.kleureneind {
+    margin-right: 100%;
+    margin-left: 4.4em;
+    margin-bottom: 4em;
+    margin top: 0em;
+    width: 25%;
+    float: left;
+}
+
+p {
+    margin-right: 4.4em;
+    margin-left: 4.4em;
+    margin-top: 2em;
+}
+
+.mail a {
+    color: black;
+    text-decoration: none;
+    margin-right: 4.4em;
+    margin-left: 4.4em;
+    margin-bottom: 20em;
+    width: 100%;
+
+}
+
+
+.contactlinks a {
+    color: black;
+    text-decoration: none;
+    margin-right: 4.4em;
+    margin-left: 4.4em;
+    width: 50em;
+
+}
+
+ul {
+    line-height: 3em;
+    padding: 0;
+    margin-top: 3em;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+
+.stageplek {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+
+.mark {
+    font-size: 1em;
+    margin-bottom: 1.6em;
+    margin-right: 4.4em;
+    margin-left: 4.4em;
+    text-align: center;
+}
+
+/* scherm afmetingen */
+
+
+@media (min-width: 550px) {
+    h1:first-of-type {
+        font-size: 2.2em;
+        margin-right: 5em;
+        margin-left: 1.76em;
+    }
+
+    h1:nth-of-type(2) {
+        font-size: 2.2em;
+        margin-right: 5em;
+        margin-left: 1.76em;
+    }
+
+    /* 70,4px */
+    h2 {
+        font-size: 1.7em;
+        margin-right: 2.59em;
+        margin-left: 2.59em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-right: 3.67em;
+        margin-left: 3.67em;
+    }
+
+    .about h3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+
+    .kleureneind {
+        margin-left: 4.4em;
+    }
+}
+
+
+@media (min-width: 550px) {
+    h1:first-of-type {
+        font-size: 2.2em;
+        margin-right: 1.76em;
+        margin-left: 1.76em;
+    }
+
+    h1:nth-of-type(2) {
+        font-size: 2.2em;
+        margin-right: 1.76em;
+        margin-left: 1.76em;
+    }
+
+    /* 70,4px */
+    h2 {
+        font-size: 1.7em;
+        margin-right: 2.59em;
+        margin-left: 2.59em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-right: 3.67em;
+        margin-left: 3.67em;
+    }
+
+    .about h3 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+
+    .kleureneind {
+        margin-left: 4.4em;
+    }
+}
+
+@media (min-width: 650px) {
+    .maininformatie {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+
+@media (min-width: 700px) {
+    .maininformatie {
+        margin-left: 4.5em;
+        margin-right: 4.5em;
+    }
+}
+
+@media (min-width: 800px) {
+    .maininformatie {
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .maininformatie {
+        margin-left: 10em;
+        margin-right: 10em;
+        max-width: 50em;
+    }
+
+}
