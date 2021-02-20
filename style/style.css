@@ -82,28 +82,35 @@ nav a:hover {
 }
 
 /*homepage pagina's */
-
+#introduction {
+    width: 100%;
+    align-content: center;
+}
 
 h1:first-of-type {
     font-size: 2em;
     line-height: 1.4em;
     text-align: center;
     /*margin is 70,4px */
-
-    margin-top: 1em;
+    max-width: 10em;
+    margin-top: 2em;
     margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1:nth-of-type(2) {
     font-size: 2em;
     line-height: 1.4em;
-      text-align: center;
+    text-align: center;
+    max-width: 10em;
     /*margin is 70,4px */
-    margin-right: 2.2em;
-    margin-left: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2em;
     margin-bottom: 0em;
 }
+
 
 .fototamar {
     display: block;
@@ -112,7 +119,11 @@ h1:nth-of-type(2) {
     max-width: 20em;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
+
+
 
 /* about */
 
@@ -158,11 +169,11 @@ h3 {
 }
 
 /* projecten */
-.semplice h2 {
+
+.projecten h2 {
     padding-top: 2.5em;
     margin-top: 0em;
 }
-
 
 .projecten img {
     display: block;
@@ -171,22 +182,33 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6em;
-    margin-bottom: 10em;
+    margin-bottom: 2.5em;
+    padding-bottom: 3em;
 }
 
-/* Homepage begin */
+/* Projecten hover */
 
-.kleuren {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    align-content: center;
+.semplice:hover {
+    background-color: #F5F5F5;
 }
+
+.perfectroadtrip:hover {
+    background-color: #F5F5F5;
+}
+
+.sportsafebracelet:hover {
+    background-color: #F5F5F5;
+}
+
+.plogdedag:hover {
+    background-color: #F5F5F5;
+}
+
+
+
+
 
 /* contact */
-
-
 
 .kleureneind {
     margin-right: 100%;
@@ -223,6 +245,11 @@ p {
 
 }
 
+.contactlinks a:hover {
+    text-decoration: underline
+}
+
+
 ul {
     line-height: 3em;
     padding: 0;
@@ -250,17 +277,6 @@ ul {
 
 
 @media (min-width: 550px) {
-    h1:first-of-type {
-        font-size: 2.2em;
-        margin-right: 5em;
-        margin-left: 1.76em;
-    }
-
-    h1:nth-of-type(2) {
-        font-size: 2.2em;
-        margin-right: 5em;
-        margin-left: 1.76em;
-    }
 
     /* 70,4px */
     h2 {
@@ -287,17 +303,6 @@ ul {
 
 
 @media (min-width: 550px) {
-    h1:first-of-type {
-        font-size: 2.2em;
-        margin-right: 1.76em;
-        margin-left: 1.76em;
-    }
-
-    h1:nth-of-type(2) {
-        font-size: 2.2em;
-        margin-right: 1.76em;
-        margin-left: 1.76em;
-    }
 
     /* 70,4px */
     h2 {
@@ -343,14 +348,13 @@ ul {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 880px) {
     main {
         align-items: center;
         margin-left: 10%;
         margin-right: 10%;
-        display: flex;
+        display: block;
         justify-content: center;
-
     }
 
     .maininformatie {
@@ -358,5 +362,4 @@ ul {
         margin-right: 10em;
         max-width: 50em;
     }
-
 }
