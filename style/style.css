@@ -186,6 +186,12 @@ h3 {
     padding-bottom: 3em;
 }
 
+.projecten a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Projecten hover */
 
 .semplice:hover {
