@@ -85,6 +85,7 @@ nav a:hover {
 #introduction {
     width: 100%;
     align-content: center;
+    margin-bottom: 3em;
 }
 
 h1:first-of-type {
@@ -153,9 +154,12 @@ h3 {
     text-align: left;
 }
 
-.about h3 {
-    margin-top: 0.5em;
+p {
+    margin-top: 0em;
     margin-bottom: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.5em;
 }
 
 .about img {
@@ -279,6 +283,97 @@ ul {
     text-align: center;
 }
 
+
+/* Perfect Road Trip */
+.eersteonderdeel {
+    display: grid;
+}
+
+
+.prtfirstimage {
+    display: block;
+    height: auto;
+    width: 70%;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tweedeonderdeel {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+}
+
+.prtvideo {
+    width: 60%;
+    max-width: 10em;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+    border-radius: 1.2em;
+    border-top: 1.8em solid black;
+    border-bottom: 1.8em solid black;
+    border-left: 0.4em solid black;
+    border-right: 0.4em solid black;
+}
+
+.prtcomputer {
+    width: 62%;
+    max-width: 40em;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+    border-radius: 1.2em;
+    border: 0.5em solid black;
+}
+
+.procesimage {
+       width: 62%;
+    max-width: 40em;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+}
+
+
+.vierdeonderdeel h3 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.vierdeonderdeel p {
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
 /* scherm afmetingen */
 
 
@@ -352,6 +447,7 @@ ul {
         margin-left: 7em;
         margin-right: 7em;
     }
+    
 }
 
 @media (min-width: 880px) {
@@ -366,6 +462,7 @@ ul {
     .maininformatie {
         margin-left: auto;
         margin-right: auto;
-        max-width: 60em;
+        max-width: 50em;
     }
+    
 }
