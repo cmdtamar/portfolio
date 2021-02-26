@@ -150,13 +150,13 @@ h3 {
     margin-right: 4.4em;
     margin-left: 4.4em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     text-align: left;
 }
 
 p {
     margin-top: 0em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
     padding-top: 0;
     padding-bottom: 0;
     line-height: 1.5em;
@@ -296,13 +296,15 @@ ul {
 }
 
 
-.prtfirstimage {
+.firstimage {
     display: block;
     height: auto;
-    width: 70%;
+    width: 65%;
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
+     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .tweedeonderdeel {
@@ -381,6 +383,18 @@ opdracht p {
 
 }
 
+.armbandimage {
+    display: block;
+    height: auto;
+    width: 65%;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
 
 /* semplice */
 .buttoncode {
@@ -430,6 +444,15 @@ opdracht p {
     text-decoration: underline;
 }
 
+/* Plog de dag */
+.iamsterdam {
+    color: black;
+    text-decoration: none;
+}
+
+ .iamsterdam:hover{
+    text-decoration: underline;
+}
 /* scherm afmetingen */
 
 
