@@ -186,22 +186,7 @@ p {
 
 /* Projecten hover */
 
-.semplice:hover {
-    background-color: #F5F5F5;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-}
-
-.perfectroadtrip:hover {
-    background-color: #F5F5F5;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-}
-
-.sportsafebracelet:hover {
-    background-color: #F5F5F5;
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
-}
-
-.plogdedag:hover {
+.project:hover {
     background-color: #F5F5F5;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
@@ -212,7 +197,7 @@ p {
     margin-right: 100%;
     margin-left: 4.4em;
     margin-bottom: 4em;
-    margin top: 0em;
+    margin-top: 0em;
     width: 25%;
     float: left;
 }
